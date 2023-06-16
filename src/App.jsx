@@ -4,6 +4,7 @@ import Screen from "./Components/Screen";
 import ClearScreen from "./Components/ClearScreen";
 import { useState } from "react";
 import { evaluate } from "mathjs";
+import Footer from "./Components/Footer";
 
 function App() {
   const [input, setInput] = useState("");
@@ -69,6 +70,7 @@ function App() {
 
       <div className="w-[400px] h-[600px] p-[14px] bg-black border-orange-500 border-2 rounded-md">
         <Screen input={input} />
+        <hr className="bg-slate-600"/>
         <div className="m-1 flex items-center justify-center">
           <Button handleClick={setscreen}>7</Button>
           <Button handleClick={setscreen}>8</Button>
@@ -98,6 +100,7 @@ function App() {
           <ClearScreen handleScreen={() => setInput("")}></ClearScreen>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
