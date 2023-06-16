@@ -14,9 +14,16 @@ Limpiar la pantalla
 
 # Tecnologías utilizadas
 HTML
+
 Tailwind CSS
+
 JavaScript
+
 React JS
+
 NPM
+
 Vite
+
 Git
+
