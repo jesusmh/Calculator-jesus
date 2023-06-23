@@ -1,12 +1,11 @@
-import React from "react";
 
 function Github() {
   return (
     <a href="https://github.com/jesusmh" target="_blank">
     <svg
       className=" items-center justify-center w-full cursor-pointer "
-      width="20px"
-      height="20px"
+      width="32px"
+      height="32px"
       viewBox="0 -0.5 48 48"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
